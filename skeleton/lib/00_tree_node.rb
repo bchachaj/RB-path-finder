@@ -33,6 +33,10 @@ class PolyTreeNode
 
   end
 
+  def inspect
+    @value.inspect
+
+  end
 
   def remove_child(child_node)
     # raise "Error" if @children.include?(child_node)
